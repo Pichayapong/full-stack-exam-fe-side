@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-midone-icewall-template',
+    title: 'Candy Shop Admin',
     htmlAttrs: {
       lang: 'en',
     },

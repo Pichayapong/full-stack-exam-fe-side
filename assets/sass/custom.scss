@@ -2,4 +2,8 @@
   h1 {
     @apply text-primary-1 text-3xl;
   }
+
+  .swal2-container {
+    z-index: 99999 !important;
+  }
 }

@@ -11,7 +11,7 @@
           class="w-6"
           src="@/assets/images/logo.svg"
         />
-        <span class="text-white text-lg ml-3"> Admin </span>
+        <span class="text-white text-lg ml-3">Candy Shop Admin</span>
       </a>
       <!-- END: Logo -->
       <!-- BEGIN: Breadcrumb -->
@@ -28,8 +28,8 @@
 
       <!-- END: Notifications -->
       <!-- BEGIN: Account Menu -->
-      <div class="intro-x dropdown w-8 h-8">
-        <div
+      <!-- <div class="intro-x dropdown w-8 h-8"> -->
+      <!-- <div
           class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in scale-110"
           role="button"
           aria-expanded="true"
@@ -48,8 +48,8 @@
               <div class="text-xs text-theme-13 mt-0.5 dark:text-gray-600">
                 Admin Name
               </div>
-            </div>
-            <!-- <div class="p-2">
+            </div> -->
+      <!-- <div class="p-2">
               <a
                 href="#"
                 class="flex items-center p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"
@@ -76,7 +76,7 @@
                 <HelpCircleIcon class="w-4 h-4 mr-2" /> Help
               </a>
             </div> -->
-            <div class="p-2 border-t border-theme-12 dark:border-dark-3">
+      <!-- <div class="p-2 border-t border-theme-12 dark:border-dark-3">
               <a
                 class="flex items-center p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"
                 @click="onLogout"
@@ -85,8 +85,8 @@
               </a>
             </div>
           </div>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
       <!-- END: Account Menu -->
     </div>
   </div>
@@ -94,25 +94,5 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      searchDropdown: false,
-    }
-  },
-  methods: {
-    onLogout() {
-      console.log('logout')
-    },
-    showSearchDropdown() {
-      this.searchDropdown = true
-    },
-    hideSearchDropdown() {
-      this.searchDropdown = false
-    },
-    wowowo() {
-      console.log('1')
-    },
-  },
-}
+export default {}
 </script>
