@@ -50,7 +50,6 @@
 export default {
   name: 'Wowowo',
   layout: 'dashboard',
-  middleware: 'authenticated',
   data() {
     return {
       isLoading: false,

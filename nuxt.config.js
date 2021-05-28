@@ -23,7 +23,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins vue-feather-icons
   plugins: [
-    { src: '~/plugins/axios.js' },
     { src: '~/plugins/cash-dom.js', mode: 'client' },
     { src: '~/plugins/velocity.js', mode: 'client' },
     { src: '~/plugins/vue-feather-icons.js' },
@@ -58,44 +57,8 @@ export default {
     confirmButtonText: 'ตกลง',
   },
   axios: {
-    baseURL: 'https://dev-api.vega369.com',
+    baseURL: 'http://localhost:8000/',
     progress: false,
-  },
-  auth: {
-    localStorage: false,
-    cookie: {
-      prefix: 'auth.',
-      options: {
-        path: '/',
-        // secure: true,
-        // sameSite: 'lax',
-        // httpOnly: true,
-        // maxAge: 60 * 60 * 24 * 7,
-      },
-    },
-    redirect: {
-      login: '/',
-      logout: '/login',
-    },
-    strategies: {
-      local: {
-        token: {
-          property: 'token.access',
-        },
-        endpoints: {
-          login: {
-            url: '/auth-admin/login',
-            method: 'post',
-          },
-          user: { url: '/auth-admin/admin', method: 'get' },
-          logout: false,
-        },
-        user: {
-          property: false,
-          autoFetch: true,
-        },
-      },
-    },
   },
   tailwindcss: {
     cssPath: '~/assets/sass/_tailwind.scss',

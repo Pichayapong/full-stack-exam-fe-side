@@ -104,7 +104,6 @@ export default {
   },
   methods: {
     onLogout() {
-      this.$auth.logout()
       console.log('logout')
     },
     showSearchDropdown() {
