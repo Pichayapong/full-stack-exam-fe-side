@@ -1,4 +1,4 @@
-# nuxt-midone-icewall-template
+# full-stack-exam-fe
 
 ## Build Setup
 
