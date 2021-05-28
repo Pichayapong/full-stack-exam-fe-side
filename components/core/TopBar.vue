@@ -11,9 +11,7 @@
           class="w-6"
           src="@/assets/images/logo.svg"
         />
-        <span class="text-white text-lg ml-3">
-          Admin<span class="font-medium"> Vega</span>
-        </span>
+        <span class="text-white text-lg ml-3"> Admin </span>
       </a>
       <!-- END: Logo -->
       <!-- BEGIN: Breadcrumb -->
