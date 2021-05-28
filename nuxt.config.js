@@ -24,10 +24,13 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins vue-feather-icons
   plugins: [
     { src: '~/plugins/axios.js' },
+    { src: '~/plugins/cash-dom.js', mode: 'client' },
     { src: '~/plugins/velocity.js', mode: 'client' },
     { src: '~/plugins/vue-feather-icons.js' },
     { src: '~/plugins/vue-tippy.js', mode: 'client' },
     { src: '~/plugins/vue-good-table.js', mode: 'client' },
+    { src: '~/plugins/vee-validate.js', mode: 'client' },
+    { src: '~/plugins/vue-select.js', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
