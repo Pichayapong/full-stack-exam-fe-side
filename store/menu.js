@@ -1,6 +1,11 @@
 export const state = () => ({
   menu: [
     {
+      icon: 'HomeIcon',
+      path: '/',
+      title: 'หน้าหลัก',
+    },
+    {
       icon: 'ShoppingBagIcon',
       path: '/shop/ShopManage',
       title: 'ร้านค้า',

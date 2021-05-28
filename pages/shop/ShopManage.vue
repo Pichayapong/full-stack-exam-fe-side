@@ -21,7 +21,7 @@
         </thead>
         <tbody>
           <tr v-if="shopList.length === 0">
-            <td colspan="4" class="text-center">ไม่พบข้อมูล</td>
+            <td colspan="5" class="text-center">ไม่พบข้อมูล</td>
           </tr>
           <template v-for="(row, idb) in shopList">
             <tr :key="idb">
